@@ -54,7 +54,7 @@ func argsInit() {
 	flag.StringVar(&starttime, "s", "", "set the begining of the query,it rely on endtime")
 	flag.StringVar(&endtime, "e", "", "set the ending of the query,it rely on starttime")
 	flag.StringVar(&file, "f", "", "assign log file")
-	flag.StringVar(&apiserver, "api", "glog.lufax.com", "api server addr string")
+	flag.StringVar(&apiserver, "api", "glog.bobtthp.com", "api server addr string")
 	flag.Usage = usage
 }
 
