@@ -1,7 +1,5 @@
 package main
 
-//LUFAX
-
 import (
 	"bufio"
 	"bytes"
